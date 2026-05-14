@@ -1,26 +1,26 @@
 # Memo Workspace
 
-**Agent:** Memo  
-**Role:** Project Manager  
-**Focus:** MyWork Framework, n8n automations, marketplace products  
-**Droplet:** 138.68.86.47 (Memo1981)
+Status: Archived historical placeholder
 
-## Purpose
-This repository is Memo's working space in DansLab OS.
+This repository is no longer an active DansLab operating workspace.
 
-## Structure
-```
-scripts/        — Agent-created scripts and tools
-configs/        — Configuration files
-logs/           — Work logs and reports
-projects/       — Project-specific work directories
-docs/           — Documentation and notes
-```
+Superseded by the current repo model:
+- `DansiDanutz/danslab-hermes` = fleet governance brain
+- `DansiDanutz/danslab-dexter` = Dexter host operations
+- `DansiDanutz/danslab-nano` = Nano host operations
+- `DansiDanutz/danslab-memo` = Memo host operations
+- `DansiDanutz/danslab-sienna` = Sienna host operations
+- product repos = actual application code
 
-## Assigned Projects
-MyWork-AI, n8n-automations, mywork-admin, mywork-user, mywork-framework
+Repo-specific replacement:
+- Private host operations now live in `DansiDanutz/danslab-memo`.
 
-## Part of DansLab OS
-- **Boss:** Dan (DansiDanutz)
-- **Orchestrator:** David (Mac Studio)
-- **Priority #1:** NERVIX (nervix.ai)
+Why this repo was retired:
+- it was an early public workspace placeholder
+- it never became the live operational source of truth
+- keeping it active would create ambiguity with the new private `danslab-*` operating repos
+
+Archive policy:
+- keep this repo only as historical context
+- do not add new operational docs, scripts, or proofs here
+- use the private `danslab-*` repos for current operations
